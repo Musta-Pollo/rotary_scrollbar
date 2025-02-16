@@ -122,6 +122,7 @@ class _RoundScrollbarState extends State<RoundScrollbar>
     with SingleTickerProviderStateMixin {
   late final _RoundProgressBarPainter _painter;
   late final AnimationController _opacityController;
+
   late final Animation<double> _opacityAnimation;
   Timer? _fadeOutTimer;
 
